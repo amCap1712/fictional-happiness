@@ -1,7 +1,5 @@
 package aoc;
 
-import java.util.function.Function;
-
 import static java.util.function.UnaryOperator.identity;
 import static java.util.stream.Collectors.*;
 

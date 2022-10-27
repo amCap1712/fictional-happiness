@@ -13,6 +13,10 @@ java {
     }
 }
 
+dependencies {
+    implementation("org.jgrapht:jgrapht-core:1.5.1")
+}
+
 tasks {
     wrapper {
         gradleVersion = "7.5.1"
