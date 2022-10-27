@@ -1,5 +1,6 @@
-package aoc;
+package aoc.y2021;
 
+import aoc.Utils;
 import org.jgrapht.Graph;
 import org.jgrapht.alg.interfaces.ShortestPathAlgorithm;
 import org.jgrapht.alg.shortestpath.DijkstraShortestPath;

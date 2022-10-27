@@ -1,4 +1,6 @@
-package aoc;
+package aoc.y2021;
+
+import aoc.Utils;
 
 import static java.util.function.UnaryOperator.identity;
 import static java.util.stream.Collectors.*;
