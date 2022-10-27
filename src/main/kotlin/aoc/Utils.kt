@@ -9,13 +9,8 @@ object Utils {
     /**
      * Reads lines from the given input txt file.
      */
-    fun readInput(day: Int) = File(Utils.javaClass.getResource("Day$day.txt")?.path!!).readLines()
+    fun readInput(year: Int, day: Int) = File(Utils.javaClass.getResource("y$year/Day$day.txt")?.path!!).readLines()
 
-    fun readInputAsInts(day: Int) = readInput(day).map { it.toInt() }
-
-    /**
-     * Converts string to aoc.md5 hash.
-     */
-    fun String.md5(): String = BigInteger(1, MessageDigest.getInstance("MD5").digest(toByteArray())).toString(16)
+    fun readInputAsInts(year: Int, day: Int) = readInput(year, day).map { it.toInt() }
 
 }

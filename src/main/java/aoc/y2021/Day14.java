@@ -9,7 +9,7 @@ public class Day14 {
 
     public static void main(String[] args) {
 
-        var lines = Utils.INSTANCE.readInput(14);
+        var lines = Utils.INSTANCE.readInput(2021, 14);
         var initial = lines.get(0);
 
         var rules = lines

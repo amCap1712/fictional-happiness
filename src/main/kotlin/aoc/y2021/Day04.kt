@@ -98,7 +98,7 @@ fun winLast(numbers: List<Int>, boards: List<Board>): Int {
 }
 
 fun main() {
-    val input = readInput(4)
+    val input = readInput(2021, 4)
     val numbers = input.first().split(",").map { it.toInt() }
 
     val boards = mutableListOf<Board>()

@@ -1,4 +1,4 @@
-package aoc
+package aoc.y2021
 
 import aoc.Utils.readInput
 
@@ -17,7 +17,7 @@ fun simulate(shoal: Map<Int, Long>): Map<Int, Long> {
 }
 
 fun main() {
-    val input = readInput(6)
+    val input = readInput(2021, 6)
     val shoal = input
         .flatMap { it.split(",") }
         .map { it.toInt() }

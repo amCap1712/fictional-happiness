@@ -1,10 +1,10 @@
-package aoc
+package aoc.y2021
 
 import aoc.Utils.readInput
 import kotlin.math.abs
 
 fun main() {
-    val input = readInput(7)
+    val input = readInput(2021, 7)
     val crabs = input
         .flatMap { it.split(",") }
         .map { it.toInt() }

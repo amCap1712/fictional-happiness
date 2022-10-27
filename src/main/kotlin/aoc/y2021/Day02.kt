@@ -1,5 +1,7 @@
 package aoc.y2021
 
+import aoc.Utils
+
 data class Point(val horizontal: Int, val depth: Int, val aim: Int) {
 
     private fun splitInput(command: String): Pair<String, Int> {
@@ -43,7 +45,7 @@ fun main() {
 
     fun part2(input: List<String>): Int = part(input, Point::moveWithAim)
 
-    val input = Utils.readInput(2)
+    val input = Utils.readInput(2021, 2)
     println("Part 1: ${part1(input)}")
     println("Part 2: ${part2(input)}")
 }

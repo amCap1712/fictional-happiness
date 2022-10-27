@@ -1,4 +1,4 @@
-package aoc
+package aoc.y2021
 
 import aoc.Utils.readInputAsInts
 
@@ -12,7 +12,7 @@ fun main() {
         return part1(windowedSum)
     }
 
-    val input = readInputAsInts(1)
+    val input = readInputAsInts(2021, 1)
     println("Part 1: ${part1(input)}")
     println("Part 2: ${part2(input)}")
 }
