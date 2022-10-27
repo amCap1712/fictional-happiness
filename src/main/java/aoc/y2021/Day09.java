@@ -1,4 +1,6 @@
-package aoc;
+package aoc.y2021;
+
+import aoc.Utils;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

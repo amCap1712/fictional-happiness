@@ -1,4 +1,4 @@
-package aoc
+package aoc.y2021
 
 import aoc.Utils.readInput
 

@@ -1,4 +1,4 @@
-package aoc
+package aoc.y2021
 
 data class Point(val horizontal: Int, val depth: Int, val aim: Int) {
 
