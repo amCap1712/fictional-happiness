@@ -1,4 +1,4 @@
-package aoc
+package aoc.y2021
 
 import aoc.Utils.readInput
 import java.util.regex.Pattern
@@ -66,7 +66,7 @@ fun score(lines: List<LineSegment>, part1: Boolean): Int {
 }
 
 fun main() {
-    val input = readInput(5)
+    val input = readInput(2021, 5)
     val pattern = Pattern.compile("(\\d+),(\\d+)\\s+->\\s+(\\d+),(\\d+)")
     val lines = input.map {
         val match = pattern.matcher(it)

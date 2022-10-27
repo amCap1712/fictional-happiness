@@ -4,9 +4,6 @@ import aoc.Utils;
 import org.jgrapht.Graph;
 import org.jgrapht.alg.interfaces.ShortestPathAlgorithm;
 import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
-import org.jgrapht.graph.DefaultEdge;
-import org.jgrapht.graph.DefaultUndirectedGraph;
-import org.jgrapht.graph.DefaultUndirectedWeightedGraph;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleWeightedGraph;
 
@@ -14,7 +11,7 @@ public class Day15 {
     public static void main(String[] args) {
         Graph<Integer, DefaultWeightedEdge> g = new SimpleWeightedGraph<>(DefaultWeightedEdge.class);
 
-        var weights = Utils.INSTANCE.readInput(15)
+        var weights = Utils.INSTANCE.readInput(2021, 15)
                 .stream()
                 .map(String::chars)
                 .map(s -> s.map(x -> x - 48).toArray())

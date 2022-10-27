@@ -1,4 +1,4 @@
-package aoc
+package aoc.y2021
 
 import aoc.Utils.readInput
 
@@ -51,7 +51,7 @@ fun main() {
         return oxygen * carbon
     }
 
-    val input = readInput(3)
+    val input = readInput(2021, 3)
     println("Part 1: ${part1(input)}")
     println("Part 2: ${part2(input)}")
 

@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 class Day09 {
     public static void main(String[] args) {
-        var matrix = Utils.INSTANCE.readInput(9)
+        var matrix = Utils.INSTANCE.readInput(2021, 9)
                 .stream()
                 .map(String::chars)
                 .map(s -> s.map(x -> x - 48).toArray())
